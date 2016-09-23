@@ -40,6 +40,7 @@ public abstract class Ticker implements Serializable {
     protected String symbol;
     protected Exchange exchange;
     protected Exchange primaryExchange;
+    protected ShowProperty defaultProperty = ShowProperty.TRADES;
     protected String currency = "USD";
     protected DecimalFormat decimalFormat = new DecimalFormat("00");
     protected BigDecimal minimumTickSize = new BigDecimal("0.01");
