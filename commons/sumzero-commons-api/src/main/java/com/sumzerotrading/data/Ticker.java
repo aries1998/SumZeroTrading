@@ -24,6 +24,7 @@ package com.sumzerotrading.data;
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.text.*;
+import com.sumzerotrading.historicaldata.IHistoricalDataProvider.ShowProperty;
 
 /**
  * @author Rob Terpilowski
